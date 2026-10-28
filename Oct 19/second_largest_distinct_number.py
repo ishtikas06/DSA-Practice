@@ -1,4 +1,4 @@
-def second_largest(input: int) -> int:
+def second_largest(input: list[int]) -> int:
     n = m = -100
     for i in input:
         if i > m:
