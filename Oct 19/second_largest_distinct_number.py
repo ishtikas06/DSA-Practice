@@ -1,5 +1,6 @@
 def second_largest(input: list[int]) -> int:
-    n = m = -100
+    n = m = float("-inf")
+    
     for i in input:
         if i > m:
             m = i
